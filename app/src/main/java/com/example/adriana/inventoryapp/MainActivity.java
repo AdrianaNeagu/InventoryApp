@@ -1,7 +1,6 @@
 package com.example.adriana.inventoryapp;
 
 import android.content.ContentValues;
-import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AppCompatActivity;
@@ -12,7 +11,6 @@ import android.view.View;
 import android.support.design.widget.FloatingActionButton;
 import android.widget.TextView;
 
-import com.example.adriana.inventoryapp.data.ProductContract;
 import com.example.adriana.inventoryapp.data.ProductContract.ProductEntry;
 import com.example.adriana.inventoryapp.data.ProductDbHelper;
 
@@ -26,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
