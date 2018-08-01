@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,11 +6,11 @@
 
     <item
         android:id="@+id/action_insert_dummy_data"
-        android:title="Insert product"
+        android:title="@string/action_insert_dummy_data"
         app:showAsAction="never" />
 
     <item
         android:id="@+id/action_delete_all_entries"
-        android:title="Delete all products"
+        android:title="@string/action_delete_all_entries"
         app:showAsAction="never" />
 </menu>
